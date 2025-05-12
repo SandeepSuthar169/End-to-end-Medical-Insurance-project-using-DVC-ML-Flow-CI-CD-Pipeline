@@ -33,11 +33,12 @@ End-to-end-Medical-Insurance-project-using-DVC-Pipeline/
 ```
 
 ##  Setup Instructions
-1. Clone the Repository :- 
+1. Clone the Repository :-
+   
 `git clone https://github.com/SandeepSuthar169/End-to-end-Medical-Insurance-project-using-DVC-Pipeline.git`
 
 
-2. Create and Activate a Virtual Environment
+3. Create and Activate a Virtual Environment
 
 `python -m venv venv`
 `venv\Scripts\activate`
