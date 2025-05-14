@@ -35,28 +35,38 @@ End-to-end-Medical-Insurance-project-using-DVC-Pipeline/
 ##  Setup Instructions
 1. Clone the Repository :-
    
-`git clone https://github.com/SandeepSuthar169/End-to-end-Medical-Insurance-project-using-DVC-Pipeline.git`
+```
+git clone https://github.com/SandeepSuthar169/End-to-end-Medical-Insurance-project-using-DVC-Pipeline.git
+```
 
 
 3. Create and Activate a Virtual Environment
 
-`python -m venv venv`
-`venv\Scripts\activate`
+```
+python -m venv venv
+venv\Scripts\activate
+```
 
 3. Install Dependencies
 
-`pip install -r requirements.txt`
+```
+pip install -r requirements.txt
+```
 
 4. Initialize DVC and Pull Data
 
-`dvc init`
-`dvc pull`
+```
+dvc init
+dvc pull
+```
 - Ensure you have access to the remote storage configured in the DVC setup.
 
 
 5. Run the Pipeline
 
-`dvc repro`
+```
+dvc repro
+```
 - This command will execute all stages defined in the dvc.yaml file, from data ingestion to model evaluation.
 
  ##  Pipeline Stages 
