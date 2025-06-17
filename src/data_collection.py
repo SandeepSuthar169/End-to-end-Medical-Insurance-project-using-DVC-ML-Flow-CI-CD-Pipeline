@@ -15,6 +15,7 @@ def load_params(filepath: str) -> float:
     except Exception as e:
         raise Exception(f"error loading parameters form {filepath}: {e}")
 
+
 def load_data(filepath: str) -> pd.DataFrame:
     try:
         return  pd.read_csv(filepath)
