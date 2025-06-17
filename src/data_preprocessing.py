@@ -11,7 +11,6 @@ def load_data(filepath: str) -> pd.DataFrame:
      except Exception as e:
           raise Exception(f"error loading  data from {filepath}")
      
-
 # train_data = pd.read_csv("./data/raw/train.csv")
 # test_data = pd.read_csv("./data/raw/test.csv")
 
