@@ -4,8 +4,6 @@ import os
 from sklearn.model_selection import train_test_split
 import yaml
 
-
-
 #df = pd.read_csv(r"C:\Users\Sande\Desktop\Datasets\medical_insurance.csv")
 
 #test_size = yaml.safe_load(open("params.yaml"))['data_collection']['test_size']
